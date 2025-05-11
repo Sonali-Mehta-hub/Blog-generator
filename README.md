@@ -82,10 +82,10 @@ However, due to technical/environment setup issues, backend development couldn�
 > ## 📸 UI Preview
 
 ### 🔐 Login Page
-![Login Page](C:\Users\AROBASE\Desktop\Github\blog generator\Blog-generator\screenshorts.html\form.png)
+![Login Page](screenshorts.html/form.png)
 
 ### 📝 Blog Form Page
-![Blog Form](C:\Users\AROBASE\Desktop\Github\blog generator\Blog-generator\screenshorts.html\login.png)
+![Blog Form](screenshorts.html/login.png)
 
 ---
 
