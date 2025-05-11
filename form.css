@@ -1,0 +1,58 @@
+/* General layout */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  color: #f1f5f9;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+  border-radius: 10px;
+  background-color: #1e293b;
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  color: #3b82f6;
+  margin-bottom: 20px;
+}
+
+/* Input fields and textarea */
+input[type="text"], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #e8e9eb;
+  border-radius: 6px;
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: #8e9caf;
+  color: #e5e6e7;
+  resize: vertical;
+}
+
+/* Button styling */
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  font-size: 16px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #2563eb;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  body {
+      margin: 20px;
+      padding: 15px;
+  }
+}
