@@ -31,11 +31,17 @@ To access the blog generation form, use:
 ## 📂 Folder Structure
 
 Blog-generator/
-├── login.html # Login page
-├── login.css # Login page styles
-├── form.html # Blog generator page
-├── form.css # Blog page styles
-└── (All JS in <script> tags inside HTML)
+├── login.html            # Login page
+├── login.css             # Login page styles
+├── login.js              # JS logic for login
+├── form.html             # Blog generator page
+├── form.css              # Blog form styles
+├── form.js               # JS for generating and publishing blog
+├── screenshots/          # Folder for UI screenshots
+│   ├── login-page.png
+│   └── blog-form.png
+└── README.md             # Project documentation
+
 
 
 ---
@@ -82,10 +88,10 @@ However, due to technical/environment setup issues, backend development couldn�
 > ## 📸 UI Preview
 
 ### 🔐 Login Page
-![Login Page](C:\Users\AROBASE\Desktop\Github\blog generator\Blog-generator\screenshorts.html\form.png)
+![Blog Form](screenshorts.html/login.png)
 
 ### 📝 Blog Form Page
-![Blog Form](C:\Users\AROBASE\Desktop\Github\blog generator\Blog-generator\screenshorts.html\login.png)
+![Blog Form](screenshorts.html/form.png)
 
 ---
 
