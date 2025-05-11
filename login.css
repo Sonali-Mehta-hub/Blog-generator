@@ -1,7 +1,7 @@
 /* General styles */
 body {
     font-family: Arial, sans-serif;
-    background: skyblue;
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,39 +10,40 @@ body {
 }
 
 .login-container {
-    background: white;
+    background-color: #1e293b;
     padding: 30px;
     border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    width: 500px;
-    height: 350px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+    width: 400px;
     text-align: center;
 }
 
-/* Input Group */
+h2 {
+    color: #f1f5f9;
+}
+
 .input-group {
     margin: 15px 0;
     text-align: left;
 }
 
 .input-group label {
-    display: block;
     font-weight: bold;
-    margin-bottom: 5px;
+    color: #f1f5f9;
 }
 
-/* Ensure both username & password fields are the same size */
 .input-group input,
 .password-container input {
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid #475569;
     border-radius: 5px;
     font-size: 16px;
+    background-color: #334155;
+    color: #f1f5f9;
     box-sizing: border-box;
 }
 
-/* Password container (for icon alignment) */
 .password-container {
     display: flex;
     align-items: center;
@@ -57,13 +58,13 @@ body {
     position: absolute;
     right: 10px;
     cursor: pointer;
+    color: #94a3b8;
 }
 
-/* Button */
 button {
     width: 100%;
     padding: 12px;
-    background: #005f9e;
+    background: #3b82f6;
     border: none;
     color: white;
     font-size: 18px;
@@ -73,11 +74,11 @@ button {
 }
 
 button:hover {
-    background: #004b7d;
+    background: #2563eb;
 }
 
-/* Error Message */
 .error-message {
     font-size: 14px;
-    margin-top: 10px;
+    margin-top: 10px;
+    color: #f87171;
 }
